@@ -47,7 +47,7 @@ class Fun
         $end = $total_pages;
         if($total_pages > $showPage){
             if($page > $pageoffset + 1){
-                $page_banner = '...';
+                $page_banner .= '...';
             }
             if($page > $pageoffset){
                 $start = $page - $pageoffset;
